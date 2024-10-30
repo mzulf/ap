@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "444161178281",
+    "project_id": "trial-cf95f",
+    "storage_bucket": "trial-cf95f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444161178281:android:ee323a402f2bc8a50247b8",
+        "android_client_info": {
+          "package_name": "com.example.codelab3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMXrPwVUeYsjN7d5TCxmRwOjhJXYyo5uM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444161178281:android:ec5595e95d4079830247b8",
+        "android_client_info": {
+          "package_name": "com.zulfi.laundryapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMXrPwVUeYsjN7d5TCxmRwOjhJXYyo5uM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

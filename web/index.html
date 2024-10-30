@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="laundryapp">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>laundryapp</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Tambahkan script Firebase di sini -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-auth.js"></script>
+</head>
+<body>
+<!-- Tambahkan konfigurasi Firebase sebelum flutter_bootstrap.js -->
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyCGcz3od1qsqJnsycX2AF7A_BjyyNxLTC0",
+    authDomain: "trial-cf95f.firebaseapp.com",
+    projectId: "trial-cf95f",
+    storageBucket: "trial-cf95f.appspot.com",
+    messagingSenderId: "444161178281",
+    appId: "1:444161178281:web:861f234ef13764d60247b8",
+    measurementId: "G-H8KBH3T0N9"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="flutter_bootstrap.js" async></script>
+
+<!-- Tambahkan main.dart.js -->
+<script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
